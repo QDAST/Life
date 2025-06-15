@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Life v.0.3.0</title>
+</head>
+<body>
+    <div class="map" id="map">
+
+    </div>
+
+    <div class="gui">
+        <button onclick="start()" class="start_button gui_button">Start</button>
+        <button onclick="save_Construction()" class="save_button gui_button">Save</button>
+        <button onclick="upload_testConstruction()" class="upload_button gui_button">Upload</button>
+        <button onclick="change_color(this)" class="white gui_button"></button>
+        <button onclick="change_color(this)" class="black gui_button"></button>
+        <button onclick="change_color(this)" class="alive_cell gui_button"></button>
+        <button onclick="change_color(this)" class="food gui_button"></button>
+    </div>
+
+    <script src="./Moving.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

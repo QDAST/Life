@@ -1,0 +1,10 @@
+.map_button {
+    height: 17px;
+    width: 17px;
+    transition: all 10ms ease;
+}
+
+.black {
+    background-color: black;
+}
+

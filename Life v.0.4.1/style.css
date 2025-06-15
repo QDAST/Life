@@ -1,0 +1,42 @@
+.map_button {
+    height: 17px;
+    width: 17px;
+    transition: all 10ms ease;
+}
+
+.gui {
+    display: flex;
+    width: fit-content;
+    height: 40px;
+    align-items: center;
+    background-color: #ccc;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.gui_button {
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.gui_button:hover {
+    height: 40px;
+}
+
+.alive_cell {
+    background-color: green;
+}
+
+.food {
+    background-color: brown;
+}
+
+.black {
+    background-color: black;
+}
